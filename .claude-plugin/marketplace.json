@@ -1,0 +1,12 @@
+{
+  "name": "cc-looks",
+  "owner": { "name": "hank0521", "url": "https://github.com/hank0521" },
+  "description": "Animated and still backgrounds with matching colours for the Claude desktop and mobile apps",
+  "plugins": [
+    {
+      "name": "cc-looks",
+      "source": "./",
+      "description": "Twelve looks for the Claude desktop and mobile apps: eight animated backgrounds and four still ones, switched with /look"
+    }
+  ]
+}

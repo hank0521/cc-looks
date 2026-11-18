@@ -1,0 +1,65 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 1000" preserveAspectRatio="xMidYMid slice">
+<defs>
+<pattern id="pa-rule" width="1600" height="44" patternUnits="userSpaceOnUse">
+<rect class="pa-bg" width="1600" height="44" fill="#efe6d3"/>
+<rect class="pa-line" y="42" width="1600" height="1.5" fill="#ddd0b5"/>
+</pattern>
+<radialGradient id="pa-lamp" gradientUnits="userSpaceOnUse" cx="160" cy="60" r="950">
+<stop class="pa-l0" offset="0" stop-color="#fff9ec" stop-opacity="0.8"/>
+<stop class="pa-l1" offset="1" stop-color="#fff9ec" stop-opacity="0"/>
+</radialGradient>
+</defs>
+<style>
+.pa-mote{animation:pa-rise 40s linear infinite}
+.pa-lamp{animation:pa-breathe 16s ease-in-out infinite alternate}
+@keyframes pa-rise{0%{transform:translate(0,0);opacity:0}20%{opacity:0.7}80%{opacity:0.7}100%{transform:translate(40px,-380px);opacity:0}}
+@keyframes pa-breathe{from{opacity:0.7}to{opacity:1}}
+@media (prefers-color-scheme: dark){
+.pa-bg{fill:#1f1a15}
+.pa-line{fill:#2a231c}
+.pa-margin{stroke:#583330}
+.pa-hole{fill:#15110d}
+.pa-hole-edge{stroke:#2e261e}
+.pa-ring{stroke:#4a3b2b}
+.pa-mote{fill:#b08f5c}
+.pa-l0{stop-color:#ffb257;stop-opacity:0.2}
+.pa-l1{stop-color:#ffb257}
+}
+</style>
+<!-- ruled paper -->
+<rect width="1600" height="1000" fill="url(#pa-rule)"/>
+<line class="pa-margin" x1="150" y1="0" x2="150" y2="1000" stroke="#e3a497" stroke-width="2"/>
+<g>
+<circle class="pa-hole" cx="62" cy="230" r="15" fill="#e3d8c1"/>
+<circle class="pa-hole-edge" cx="62" cy="230" r="15" fill="none" stroke="#d4c5a7" stroke-width="2"/>
+<circle class="pa-hole" cx="62" cy="500" r="15" fill="#e3d8c1"/>
+<circle class="pa-hole-edge" cx="62" cy="500" r="15" fill="none" stroke="#d4c5a7" stroke-width="2"/>
+<circle class="pa-hole" cx="62" cy="770" r="15" fill="#e3d8c1"/>
+<circle class="pa-hole-edge" cx="62" cy="770" r="15" fill="none" stroke="#d4c5a7" stroke-width="2"/>
+</g>
+<!-- coffee ring -->
+<g opacity="0.55">
+<circle class="pa-ring" cx="1420" cy="190" r="104" fill="none" stroke="#d3ba90" stroke-width="9"/>
+<circle class="pa-ring" cx="1421" cy="191" r="95" fill="none" stroke="#d3ba90" stroke-width="2.5" opacity="0.6"/>
+<path class="pa-ring" d="M1335 248 q-14 22 -6 40" fill="none" stroke="#d3ba90" stroke-width="5" stroke-linecap="round"/>
+</g>
+<!-- lamp light -->
+<circle class="pa-lamp" cx="160" cy="60" r="950" fill="url(#pa-lamp)"/>
+<!-- dust -->
+<circle class="pa-mote" cx="905.5" cy="669.8" r="2.7" fill="#c4b08c" opacity="0.6" style="animation-duration:49s;animation-delay:-43s"/>
+<circle class="pa-mote" cx="940.9" cy="372.8" r="2.6" fill="#c4b08c" opacity="0.6" style="animation-duration:50s;animation-delay:-23s"/>
+<circle class="pa-mote" cx="863.3" cy="876.7" r="2.3" fill="#c4b08c" opacity="0.6" style="animation-duration:51s;animation-delay:-34s"/>
+<circle class="pa-mote" cx="435.5" cy="437.8" r="2" fill="#c4b08c" opacity="0.6" style="animation-duration:44s;animation-delay:-19s"/>
+<circle class="pa-mote" cx="1000.6" cy="404.1" r="2.7" fill="#c4b08c" opacity="0.6" style="animation-duration:49s;animation-delay:-21s"/>
+<circle class="pa-mote" cx="1351.3" cy="851.6" r="3.1" fill="#c4b08c" opacity="0.6" style="animation-duration:42s;animation-delay:-31s"/>
+<circle class="pa-mote" cx="557.3" cy="357.1" r="3" fill="#c4b08c" opacity="0.6" style="animation-duration:59s;animation-delay:-15s"/>
+<circle class="pa-mote" cx="416.4" cy="810.7" r="2.2" fill="#c4b08c" opacity="0.6" style="animation-duration:48s;animation-delay:-29s"/>
+<circle class="pa-mote" cx="1353" cy="414.5" r="3.3" fill="#c4b08c" opacity="0.6" style="animation-duration:55s;animation-delay:-19s"/>
+<circle class="pa-mote" cx="254.1" cy="370.6" r="3.3" fill="#c4b08c" opacity="0.6" style="animation-duration:47s;animation-delay:-26s"/>
+<circle class="pa-mote" cx="582.4" cy="651.3" r="3" fill="#c4b08c" opacity="0.6" style="animation-duration:36s;animation-delay:-32s"/>
+<circle class="pa-mote" cx="280.4" cy="613.4" r="2.8" fill="#c4b08c" opacity="0.6" style="animation-duration:60s;animation-delay:-21s"/>
+<circle class="pa-mote" cx="844.7" cy="552.9" r="1.5" fill="#c4b08c" opacity="0.6" style="animation-duration:53s;animation-delay:-21s"/>
+<circle class="pa-mote" cx="1237.7" cy="518.3" r="2.6" fill="#c4b08c" opacity="0.6" style="animation-duration:43s;animation-delay:-42s"/>
+<circle class="pa-mote" cx="434.6" cy="398.3" r="2.8" fill="#c4b08c" opacity="0.6" style="animation-duration:50s;animation-delay:-6s"/>
+<circle class="pa-mote" cx="714.7" cy="569.2" r="3.5" fill="#c4b08c" opacity="0.6" style="animation-duration:56s;animation-delay:-31s"/>
+</svg>

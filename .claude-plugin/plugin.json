@@ -1,0 +1,10 @@
+{
+  "name": "cc-looks",
+  "version": "0.1.0",
+  "description": "Twelve looks for the Claude desktop and mobile apps: eight animated backgrounds and four still ones, switched with /look",
+  "author": { "name": "hank0521", "url": "https://github.com/hank0521" },
+  "homepage": "https://github.com/hank0521/cc-looks",
+  "repository": "https://github.com/hank0521/cc-looks",
+  "license": "MIT",
+  "keywords": ["theme", "background", "look", "desktop"]
+}

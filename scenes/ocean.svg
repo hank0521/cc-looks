@@ -1,0 +1,95 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 1000" preserveAspectRatio="xMidYMid slice">
+<defs>
+<linearGradient id="oc-sky" x1="0" y1="0" x2="0" y2="1">
+<stop class="oc-s0" offset="0" stop-color="#eef4f9"/>
+<stop class="oc-s1" offset="1" stop-color="#d3e1ee"/>
+</linearGradient>
+<radialGradient id="oc-glow" gradientUnits="userSpaceOnUse" cx="1330" cy="200" r="280">
+<stop class="oc-g0" offset="0" stop-color="#fff3d6" stop-opacity="0.9"/>
+<stop class="oc-g1" offset="1" stop-color="#fff3d6" stop-opacity="0"/>
+</radialGradient>
+</defs>
+<style>
+.oc-halo{animation:oc-breathe 12s ease-in-out infinite alternate}
+.oc-w1{animation:oc-right 44s linear infinite}
+.oc-w2{animation:oc-left 32s linear infinite}
+.oc-w3{animation:oc-left 24s linear infinite}
+.oc-glint{animation:oc-shimmer 5s ease-in-out infinite alternate}
+@keyframes oc-left{from{transform:translateX(0)}to{transform:translateX(-400px)}}
+@keyframes oc-right{from{transform:translateX(0)}to{transform:translateX(400px)}}
+@keyframes oc-breathe{from{opacity:0.75}to{opacity:1}}
+@keyframes oc-shimmer{from{opacity:0.15}to{opacity:0.6}}
+@keyframes oc-twinkle{from{opacity:0.25}to{opacity:0.85}}
+@media (prefers-color-scheme: dark){
+.oc-s0{stop-color:#07111b}
+.oc-s1{stop-color:#10243a}
+.oc-g0{stop-color:#9fc3ea;stop-opacity:0.28}
+.oc-g1{stop-color:#9fc3ea}
+.oc-moon{fill:#e6eef7}
+.oc-star{opacity:0.6;animation:oc-twinkle 4.5s ease-in-out infinite alternate}
+.oc-f1{fill:#0f2a45}
+.oc-f2{fill:#133556}
+.oc-f3{fill:#184068}
+.oc-glint{fill:#cfe2f5}
+}
+</style>
+<!-- sky -->
+<rect width="1600" height="1000" fill="url(#oc-sky)"/>
+<circle class="oc-star" cx="18.7" cy="32.2" r="2.4" fill="#ffffff" opacity="0" style="animation-delay:-6.3s"/>
+<circle class="oc-star" cx="834.3" cy="210.9" r="1.5" fill="#ffffff" opacity="0" style="animation-delay:-2.2s"/>
+<circle class="oc-star" cx="885.3" cy="379.5" r="1.2" fill="#ffffff" opacity="0" style="animation-delay:-1.4s"/>
+<circle class="oc-star" cx="1222.5" cy="269.6" r="1.1" fill="#ffffff" opacity="0" style="animation-delay:-3.3s"/>
+<circle class="oc-star" cx="469.2" cy="278.1" r="1.3" fill="#ffffff" opacity="0" style="animation-delay:-8.8s"/>
+<circle class="oc-star" cx="396.1" cy="456.4" r="1.1" fill="#ffffff" opacity="0" style="animation-delay:-1.3s"/>
+<circle class="oc-star" cx="247.4" cy="151.3" r="1.7" fill="#ffffff" opacity="0" style="animation-delay:-6.9s"/>
+<circle class="oc-star" cx="119.2" cy="474.7" r="1.7" fill="#ffffff" opacity="0" style="animation-delay:-5.6s"/>
+<circle class="oc-star" cx="1088.1" cy="502.3" r="1.8" fill="#ffffff" opacity="0" style="animation-delay:-8.3s"/>
+<circle class="oc-star" cx="1324.2" cy="20.8" r="1.1" fill="#ffffff" opacity="0" style="animation-delay:-3.2s"/>
+<circle class="oc-star" cx="680.5" cy="10.5" r="0.9" fill="#ffffff" opacity="0" style="animation-delay:-6.9s"/>
+<circle class="oc-star" cx="590.4" cy="221.9" r="1.5" fill="#ffffff" opacity="0" style="animation-delay:-8.5s"/>
+<circle class="oc-star" cx="1125.2" cy="357.9" r="1.3" fill="#ffffff" opacity="0" style="animation-delay:-3.2s"/>
+<circle class="oc-star" cx="222.1" cy="69.3" r="2.3" fill="#ffffff" opacity="0" style="animation-delay:-2.9s"/>
+<circle class="oc-star" cx="304.6" cy="328.7" r="1.3" fill="#ffffff" opacity="0" style="animation-delay:-0.4s"/>
+<circle class="oc-star" cx="1094.8" cy="479.1" r="1.7" fill="#ffffff" opacity="0" style="animation-delay:-7.4s"/>
+<circle class="oc-star" cx="1048.4" cy="478.3" r="1" fill="#ffffff" opacity="0" style="animation-delay:-4.8s"/>
+<circle class="oc-star" cx="1038.7" cy="463.4" r="2.3" fill="#ffffff" opacity="0" style="animation-delay:-7.5s"/>
+<circle class="oc-star" cx="950.8" cy="501.2" r="2.3" fill="#ffffff" opacity="0" style="animation-delay:-4.9s"/>
+<circle class="oc-star" cx="1309.6" cy="3" r="1.6" fill="#ffffff" opacity="0" style="animation-delay:-3s"/>
+<circle class="oc-star" cx="1158.8" cy="285.7" r="2" fill="#ffffff" opacity="0" style="animation-delay:-8.8s"/>
+<circle class="oc-star" cx="892.1" cy="428" r="1.5" fill="#ffffff" opacity="0" style="animation-delay:-5.8s"/>
+<circle class="oc-star" cx="1181.7" cy="286.9" r="1.3" fill="#ffffff" opacity="0" style="animation-delay:-2.1s"/>
+<circle class="oc-star" cx="14.9" cy="12.5" r="2.3" fill="#ffffff" opacity="0" style="animation-delay:-7.5s"/>
+<circle class="oc-star" cx="1009" cy="7.5" r="1.8" fill="#ffffff" opacity="0" style="animation-delay:-5.4s"/>
+<circle class="oc-star" cx="1147" cy="517.3" r="1.2" fill="#ffffff" opacity="0" style="animation-delay:-8.9s"/>
+<circle class="oc-star" cx="1040" cy="418.6" r="1.8" fill="#ffffff" opacity="0" style="animation-delay:-7.5s"/>
+<circle class="oc-star" cx="222.5" cy="517" r="1.6" fill="#ffffff" opacity="0" style="animation-delay:-5.1s"/>
+<circle class="oc-star" cx="257.4" cy="206" r="1.1" fill="#ffffff" opacity="0" style="animation-delay:-7.3s"/>
+<circle class="oc-star" cx="1378.5" cy="382.7" r="1.9" fill="#ffffff" opacity="0" style="animation-delay:-8.9s"/>
+<circle class="oc-star" cx="974.9" cy="383" r="2.3" fill="#ffffff" opacity="0" style="animation-delay:-4.4s"/>
+<circle class="oc-star" cx="367.6" cy="303.7" r="2.1" fill="#ffffff" opacity="0" style="animation-delay:-7.7s"/>
+<circle class="oc-star" cx="303.9" cy="288.5" r="1.6" fill="#ffffff" opacity="0" style="animation-delay:-4.7s"/>
+<circle class="oc-star" cx="288.3" cy="130.3" r="1.5" fill="#ffffff" opacity="0" style="animation-delay:-4.3s"/>
+<circle class="oc-star" cx="273.3" cy="1.7" r="1.1" fill="#ffffff" opacity="0" style="animation-delay:-0.2s"/>
+<circle class="oc-star" cx="171.6" cy="455.7" r="2.4" fill="#ffffff" opacity="0" style="animation-delay:-0.5s"/>
+<circle class="oc-star" cx="279.1" cy="210.6" r="1.6" fill="#ffffff" opacity="0" style="animation-delay:-6.6s"/>
+<circle class="oc-star" cx="589.2" cy="187.2" r="2.1" fill="#ffffff" opacity="0" style="animation-delay:-6.4s"/>
+<circle class="oc-star" cx="1280.2" cy="275.6" r="2.1" fill="#ffffff" opacity="0" style="animation-delay:-3.7s"/>
+<circle class="oc-star" cx="900.2" cy="152.2" r="1.6" fill="#ffffff" opacity="0" style="animation-delay:-7s"/>
+<circle class="oc-star" cx="128" cy="131.1" r="2.1" fill="#ffffff" opacity="0" style="animation-delay:-7.4s"/>
+<circle class="oc-star" cx="1239.5" cy="223.5" r="1.4" fill="#ffffff" opacity="0" style="animation-delay:-8.3s"/>
+<circle class="oc-star" cx="402.1" cy="187.9" r="1.6" fill="#ffffff" opacity="0" style="animation-delay:-7.5s"/>
+<circle class="oc-star" cx="646.5" cy="506.8" r="1.7" fill="#ffffff" opacity="0" style="animation-delay:-3.9s"/>
+<circle class="oc-star" cx="541.7" cy="279.3" r="1.3" fill="#ffffff" opacity="0" style="animation-delay:-8s"/>
+<circle class="oc-star" cx="915.6" cy="512.7" r="2.1" fill="#ffffff" opacity="0" style="animation-delay:-4.5s"/>
+<circle class="oc-halo" cx="1330" cy="200" r="280" fill="url(#oc-glow)"/>
+<circle class="oc-moon" cx="1330" cy="200" r="58" fill="#fff7e4"/>
+<!-- sea -->
+<g class="oc-w1"><path class="oc-f1" d="M-400 640 Q-300 628 -200 640 T0 640 T200 640 T400 640 T600 640 T800 640 T1000 640 T1200 640 T1400 640 T1600 640 T1800 640 T2000 640 L2000 1000 L-400 1000 Z" fill="#bcd2e6"/></g>
+<rect class="oc-glint" x="1290" y="662" width="80" height="3" rx="1.5" fill="#fff7e4" opacity="0.5" style="animation-delay:-0s"/>
+<rect class="oc-glint" x="1296" y="678" width="68" height="3" rx="1.5" fill="#fff7e4" opacity="0.5" style="animation-delay:-1.3s"/>
+<rect class="oc-glint" x="1302" y="694" width="56" height="3" rx="1.5" fill="#fff7e4" opacity="0.5" style="animation-delay:-2.6s"/>
+<rect class="oc-glint" x="1308" y="710" width="44" height="3" rx="1.5" fill="#fff7e4" opacity="0.5" style="animation-delay:-3.9000000000000004s"/>
+<rect class="oc-glint" x="1314" y="726" width="32" height="3" rx="1.5" fill="#fff7e4" opacity="0.5" style="animation-delay:-5.2s"/>
+<g class="oc-w2"><path class="oc-f2" d="M-400 735 Q-300 717 -200 735 T0 735 T200 735 T400 735 T600 735 T800 735 T1000 735 T1200 735 T1400 735 T1600 735 T1800 735 T2000 735 L2000 1000 L-400 1000 Z" fill="#9dbcd9"/></g>
+<g class="oc-w3"><path class="oc-f3" d="M-400 840 Q-300 816 -200 840 T0 840 T200 840 T400 840 T600 840 T800 840 T1000 840 T1200 840 T1400 840 T1600 840 T1800 840 T2000 840 L2000 1000 L-400 1000 Z" fill="#7ea5cb"/></g>
+</svg>
