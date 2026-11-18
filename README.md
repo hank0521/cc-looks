@@ -2,6 +2,36 @@
 
 Twelve looks for the Claude desktop and mobile apps, each a colour palette plus a background. Switch between them with `/look`.
 
+## Gallery
+
+Each animated background in light mode (left) and dark mode (right), paused at the moment its motion shows. The app picks the side that matches its own mode.
+
+### `eclipse` (default)
+![eclipse in light and dark mode](docs/eclipse.jpg)
+
+### `deepsea`
+![deepsea in light and dark mode](docs/deepsea.jpg)
+
+### `survey`
+![survey in light and dark mode](docs/survey.jpg)
+
+### `paper`
+![paper in light and dark mode](docs/paper.jpg)
+
+### `ocean`
+![ocean in light and dark mode](docs/ocean.jpg)
+
+### `jade`
+![jade in light and dark mode](docs/jade.jpg)
+
+### `sakura`
+![sakura in light and dark mode](docs/sakura.jpg)
+
+### `phosphor` (one look for both modes)
+![phosphor](docs/phosphor.jpg)
+
+## All looks
+
 | Name | Background | Kind |
 | --- | --- | --- |
 | `paper` | Ruled notebook paper, coffee ring, dust drifting in lamp light | animated |
